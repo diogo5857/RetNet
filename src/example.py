@@ -16,3 +16,6 @@ if __name__ == "__main__":
 
     retnet = retnet.RetNet(layers, hidden_dim, ffn_size, heads, double_v_dim=True).to(device)
     print("1.3B model:",sum(p.numel() for p in retnet.parameters() if p.requires_grad))
+
+
+# hfugifbvihf
